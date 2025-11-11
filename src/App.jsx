@@ -19,6 +19,9 @@ import JSIcon from'./assets/js.svg'
 import UnityIcon from'./assets/unity.svg'
 import CPPIcon from'./assets/cpp.svg'
 import HTMLIcon from'./assets/html.svg'
+import TailwindIcon from'./assets/tailwind.svg'
+import GitIcon from'./assets/git.svg'
+import PythonIcon from './assets/python.svg'
 
 //Project imports
 import SeeGapImg from './assets/ProjectMedia/SeeGapShot.png'
@@ -194,17 +197,20 @@ function App() {
             <SkillCard label="REACT" img={ReactLogo}/>
             <SkillCard label="Node.js" img={NodeIcon}/>
             <SkillCard label="HTML" img={HTMLIcon}/>
+            <SkillCard label="Tailwind" img={TailwindIcon}/>
           </div>
           <div>
             <SkillCard label="Java" img={JavaIcon}/>
             <SkillCard label="CSS" img={CSSIcon}/>
             <SkillCard label="JavaScript" img={JSIcon}/>
             <SkillCard label="C++" img={CPPIcon}/>
+            <SkillCard label="Python" img={PythonIcon}/>
           </div>
           <div>
             <SkillCard label="C#" img={CSIcon}/>
             <SkillCard label="QDrant" img={QdrantIcon}/>
             <SkillCard label="Unity" img={UnityIcon}/>
+            <SkillCard label="Git" img={GitIcon}/>
           </div>
         </div>
 
